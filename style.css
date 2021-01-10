@@ -1,0 +1,203 @@
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+
+.navbar-brand img {
+  height: 40px;
+  padding-left: 30px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  float: right;
+  text-align: left; 
+}
+
+#nav-bar ul li a 
+{
+  color: #fff!important; 
+}
+
+
+#nav-bar ul li a:hover 
+{
+  color: #007bff!important; 
+}
+
+.navbar {
+  background:#15113b!important;
+}
+
+.navbar-toggler {
+  border: none!important;
+} 
+
+.nav-link {
+  color: #555!important;
+  font-weight: 600px;
+  font-size: 16px;
+}
+
+/*----------WHYSAFELYAI-------------*/
+
+#why-safelyai {
+  background-position: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#why-safelyai h1 {
+  text-align: center;
+  color: #15113b !important;
+} 
+
+#why-safelyai h5 {
+  text-align: center;
+  color: black !important;
+} 
+
+/*----------OUR PRODUCT-------------*/
+
+#our-product {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: #555;
+}
+
+#our-product h1 {
+  text-align: center;
+  color: #15113b !important;
+}
+
+/*----------TESTIMONIALS-------------*/
+
+#testimonials {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#testimonials h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#testimonials p {
+  text-align: left;
+  font-size: x-large;
+  font-style: italic;
+}
+
+#testimonials h3{
+  text-align: left;
+  padding-top: 20px;
+}
+
+/*----------PRICING-------------*/
+
+#price {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.single-price {
+  margin: 10px;
+  display: inline;
+  color: white;
+  border-radius: 10px;
+  float: left;
+  width: 100%;
+  background-color: #15113b!important;
+  transition: 0.5s;
+}
+
+.single-price:hover {
+  box-shadow: 0 3px 50px black ;
+} 
+
+.price-head h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.price-head h4 {
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.price-content {
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.price-button {
+  display: inline;
+  float: center;
+  font-weight: 600;
+  padding: 15px 15px 30px;
+  text-align: center;
+  width: 100px;
+}
+
+.buy-btn {
+  background-color: #15113b;
+  border: 2px solid white;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 18px;
+  padding: 15px 50px;
+  transition: 0.5s;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/*----------BUY NOW-------------*/
+
+#buy-now h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.row-buy-now {
+  background-color: #15113b;
+  color: white;
+  padding: 80px 60px 40px 80px;
+  border-radius: 20px;  
+}
+
+.col-sm-10 button {
+  background: #15113b !important;
+  border: 2px solid white;
+  margin-top: 40px;
+  font-size: x-large;
+}
+
+/*----------CONTACT-------------*/
+
+#contact h1 {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.contact-map {
+  margin-bottom: 50px;
+}
+.contact-details  {
+  text-align: left;
+  padding: 20px;
+}
