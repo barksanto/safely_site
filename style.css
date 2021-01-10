@@ -152,6 +152,7 @@
   width: 100px;
 }
 
+#my-form-button,
 .buy-btn {
   background-color: #15113b;
   border: 2px solid white;
@@ -179,12 +180,27 @@
   border-radius: 20px;  
 }
 
+
 .col-sm-10 button {
   background: #15113b !important;
   border: 2px solid white;
   margin-top: 40px;
   font-size: x-large;
 }
+
+#my-form-button {
+  background-color: #15113b;
+  border: 2px solid white;
+  color: white;
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 18px;
+  padding: 15px 50px;
+  transition: 0.5s;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
 
 /*----------CONTACT-------------*/
 
