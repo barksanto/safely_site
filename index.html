@@ -305,22 +305,54 @@
   </section>
 
   <!-- FORMSPREE FORM FOR CONTACT FORM -->
-  <form id="my-form" action="https://formspree.io/f/mgeprldk" method="POST">
-    <label>Company name:</label>
-    <input type="text" name="company-name" />
-    <label>Contact name:</label>
-    <input type="text" name="contact-name" />
-    <label>Contact email:</label>
-    <input type="email" name="email" />
-    <label>Contact phone</label>
-    <input type="text" name="phone" />
-    <label>Number of drivers:</label>
-    <input type="text" name="drivers" />
-    <label>Plan:</label>
-    <input type="text" name="plan" />
-    <button id="my-form-button">Submit</button>
-    <p id="my-form-status"></p>
-  </form>
+  <section id="buy-now">
+    <div class="container">
+      <h1>BUY NOW</h1>
+      <div class="row-buy-now">
+        <form id="my-form" action="https://formspree.io/f/mgeprldk" method="POST">
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Company name:</label>
+            <div class="col-sm-10">
+              <input type="text" name="company-name" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Contact name:</label>
+            <div class="col-sm-10">
+              <input type="text" name="contact-name" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Contact email:</label>
+            <div class="col-sm-10">
+              <input type="email" name="email" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Contact phone</label>
+            <div class="col-sm-10">
+              <input type="text" name="phone" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Number of drivers:</label>
+            <div class="col-sm-10">
+              <input type="text" name="drivers" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Plan:</label>
+            <div class="col-sm-10">
+              <input type="text" name="plan" class="col-sm-2 col-form-label" />
+            </div>
+          </div>
+          <button id="my-form-button">Submit</button>
+          <p id="my-form-status"></p>
+        </form>
+      </div>
+  </section>
+  </div>
+  
   <!-------------CONTACT------------->
 
   <section id="contact">
